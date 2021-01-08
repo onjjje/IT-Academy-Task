@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oldtag</title>
+    <style>
+        kbd.key {
+            border-radius: 3px;
+            padding: 1px 2px 0;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <h2>Теги dl dt dd</h2>
+        <p>визуально схож с <strong>ul>li</strong> со свойством <strong>li</strong> <strong>list-style-type:
+                none;</strong> </p>
+        <dl>
+            <dt>Термин 1</dt>
+            <dd>Определение термина 1</dd>
+            <dt>Термин 2</dt>
+            <dd>Определение термина 2</dd>
+        </dl>
+    </div>
+    <hr>
+    <div class="content">
+        <h2>Тег pre</h2>
+        <pre>
+            -                -----  
+            -----           |-----
+           ||----|          ----||  
+           ||-----         -----||  
+           ||-----|       |-----||
+           || -----       ------||
+           ||- ----|     |------||
+           ||---||--     -------||
+           ||--|| --|   |-------||
+           || -|| |--   --- - --||
+           || -||  --|-|--| - ---|
+           |---||  |-----| |-----|
+           |---||   |----  |-----| 
+           |----|    ---   |-----|
+           |-----          ------| 
+        </pre>
+    </div>
+    <hr>
+    <div class="content">
+        <h2>тег code</h2>
+        <p>отличие от тега <strong>pre</strong> - не учитываются отступы и пробелы, можно использовать теги
+            <strong>br</strong> и <strong>p</strong>
+        </p>
+        <code>
+            function checkParent (src, dest) {<Br>
+             while (src != null) {<Br>
+               if (src.tagName == dest) return src<Br>
+                src = src.parentElement<Br>
+             }<Br>
+             return null<Br>
+            }</code>
+    </div>
+    <hr>
+    <div class="content">
+        <h2>Тег tt</h2>
+        <p>Контейнер tt отображает текст моноширинным текстом. Этот тег относится к группе тегов физического
+            форматирования.</p>
+        <tt>Lorem ipsum dolor sit amet</tt>
+    </div>
+    <hr>
+    <div class="content">
+        <h2>Тег kbd</h2>
+        <p>Обновить страницу браузера можно сочетанием клавиш
+            <kbd><kbd class="key">Ctrl</kbd>+<kbd class="key">R</kbd></kbd>.
+        </p>
+    </div>
+    <hr>
+    <div class="content">
+        <h2>Тег var</h2>
+        <p>Тег var используется для выделения переменных компьютерных программ. Браузеры обычно помечают текст в
+            контейнере var курсивным начертанием.</p>
+        <p>В данном примере делается запрос к базе данных для получения поля <var>content_title</var>
+            из таблицы <var>content</var>, причем должно удовлетворяться условие
+            <code>section_id = 1</code>.
+        </p>
+    </div>
+    <hr>
+    <div class="content">
+        <h2>Теги sup и sub</h2>
+        <p>sup для верхнего регистра, sub для нижнего регистра текста</p>
+        <p>x<sup>2</sup></sup></p>
+        <p>y<sub>2</sup></sub></p>
+    </div>
+    <hr>
+    <div class="content">
+        <h2>Теги blockquote и q</h2>
+        <p>Тег blockquote предназначен для выделения длинных цитат внутри документа. Текст, обозначенный этим тегом,
+            традиционно отображается как выровненный блок с отступами слева и справа (примерно по 40 пикселов), а также
+            с отбивкой сверху и снизу.</p>
+        <blockquote>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat
+                volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper
+                suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+        </blockquote>
+        <p>Тег q используется для выделения в тексте цитат. Содержимое контейнера автоматически отображается в браузере
+            в кавычках.</p>
+        <p>Станислав Лец утверждал: <q>Чаще всего выход там, где был
+                вход</q>.</p>
+    </div>
+    <hr>
+    <div class="content">
+        <h2>Теги del и inst</h2>
+        <p>Тег del зачеркивает текст, тег inst подчеркивает снизу</p>
+        <p>Заметим, что схожий результат с Firefox показывает и браузер
+            Opera, но, как видно на рис. 1, в последующих версиях <del>этот
+                недостаток был устранен</del> <ins>подход разработчиков этого
+                браузера был изменен</ins>.</p>
+    </div>
+    <hr>
+    <div class="content">
+        <h2>Тег adress</h2>
+        Тег <address> предназначен для хранения информации об авторе и может включать в себя любые элементы HTML вроде
+            ссылок, текста, выделений и т.д. Планируется, что поисковые системы будут анализировать содержимое этого
+            тега для сбора информации об авторах сайтов.
+            <address>
+                Этот партал зделан сабствинаручно веб-дизайнером Ваней Шапочкиным в праграме
+                Блакнот. Если вы хатите взять маи статьи к сибе на сайт то спрасите мое
+                разришение.
+            </address>
+    </div>
+    <hr>
+    <div class="content">
+        <h2>Теги nobr и wbr</h2>
+        <p>Тег <strong>nobr</strong> уведомляет браузер отображать текст без переносов. Если этого тега в коде документа нет, а также
+            имеются переводы строки, они игнорируются и текст выравнивается по левому краю окна браузера или
+            родительского элемента. При этом браузер переводы строк расставляет автоматически, чтобы текст полностью
+            поместился по ширине окна. Использование тега nobr заставляет отображать текст без переносов, одной
+            строкой, что может привести к появлению горизонтальной полосы прокрутки. Пользователям придется
+            прокручивать текст по горизонтали, чтобы увидеть его полностью, чего обычно делать никто не любит.
+        </p>
+        <p>
+            <nobr>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diem nonummy nibh euismod tincidunt ut lacreet dolore
+                magna aliguam erat volutpat.</nobr> Ut wisis enim ad minim veniam,
+            quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+            ut aliquip ex ea commodo consequat.
+        </p>
+        <p>Тег <strong>wbr</strong> указывает браузеру место, где допускается делать перенос строки в тексте, если этого требует ширина
+            родительского элемента.</p>
+        <p class="word">метоксихлор<wbr>диэтиламино<wbr>метил<wbr>бутил<wbr>амино<wbr>акридин</p>
+    </div>
+    <hr>
+</body>
+
+</html>
