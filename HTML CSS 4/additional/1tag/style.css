@@ -1,0 +1,14 @@
+.box {
+    /* border: 2px solid red; */
+    min-width: auto;
+    min-height: 200px;
+    padding: 60px;
+    background: url('/IT-Academy-Task/HTML CSS 4/base/frame/img/top_left.png') top left no-repeat, 
+    url('/IT-Academy-Task/HTML CSS 4/additional/1tag/img/top_right.png') top right no-repeat, 
+    url('/IT-Academy-Task/HTML CSS 4/additional/1tag/img/top_bottom.png') top repeat-x, 
+    url('/IT-Academy-Task/HTML CSS 4/additional/1tag/img/bottom_left.png') bottom left no-repeat, 
+    url('/IT-Academy-Task/HTML CSS 4/additional/1tag/img/bottom_right.png') bottom right no-repeat, 
+    url('/IT-Academy-Task/HTML CSS 4/additional/1tag/img/top_bottom.png') bottom repeat-x, 
+    url('/IT-Academy-Task/HTML CSS 4/additional/1tag/img/left_right.png') left repeat-y, 
+    url('/IT-Academy-Task/HTML CSS 4/additional/1tag/img/left_right.png') right repeat-y;
+}
