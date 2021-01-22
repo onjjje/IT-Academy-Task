@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1,
+.box2,
+.box3 {
+    float: left;
+    min-height: 400px;
+    color: #ffffff;
+}
+
+.box1 {
+    width: 20%;
+    background: red;
+    background: url('/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top left, url('/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top right, url('/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom right, url('/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom left;
+}
+
+.box2 {
+    width: 800px;
+    background: green;
+    background: url('/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top left, url('/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top right, url('/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom right, url('/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom left;
+}
+
+.box3 {
+    width: 200px;
+    background: blue;
+    background: url('/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top left, url('/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top right, url('/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom right, url('/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom left;
+}
+
+
+/* .box2 {
+    width: 100%;
+} */
+
+.box3 {
+    width: 200px;
+}
