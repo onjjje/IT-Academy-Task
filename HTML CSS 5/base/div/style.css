@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: coral;
+    width: 200px;
+    float: left;
+    min-height: 395px;
+}
+
+nav ul {
+    padding: 22px;
+    margin: 22px;
+}
+
+nav ul span {
+    margin: 12px;
+    font-weight: bold;
+}
+
+header h2,
+footer h2 {
+    color: blue;
+    text-transform: uppercase;
+    background: rgb(0, 238, 255);
+    padding: 12px 0 12px 0;
+    text-align: center;
+}
+
+.content {
+    background: url('/HTML CSS 5/base/div/img/ball3.png');
+    background-color: #ffffff1c;
+    background-repeat: repeat-y;
+    background-position: right;
+    min-height: 395px;
+}
+
+.content h3 {
+    color: #000000;
+    text-transform: uppercase;
+    padding: 12px 0 12px 0;
+    text-align: center;
+}
+
+.content .content_img {
+    float: left;
+}
+
+footer {
+    clear: both;
+}
