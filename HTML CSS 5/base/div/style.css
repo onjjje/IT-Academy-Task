@@ -12,7 +12,7 @@ nav {
 }
 
 nav ul {
-    padding: 22px;
+    /* padding: 22px; */
     margin: 22px;
 }
 
@@ -32,7 +32,7 @@ footer h2 {
 
 .content {
     background: url('/IT-Academy-Task/HTML CSS 5/base/div/img/ball3.png');
-    background-color: #ffffff1c;
+    /* background-color: #ffffff1c; */
     background-repeat: repeat-y;
     background-position: right;
     min-height: 395px;
