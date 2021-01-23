@@ -14,20 +14,17 @@
 
 .box1 {
     width: 20%;
-    background: red;
-    background: url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top left, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom left;
+    background: url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top left, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom left, red;
 }
 
 .box2 {
     width: 800px;
-    background: green;
-    background: url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top left, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom left;
+    background: url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top left, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom left, green;
 }
 
 .box3 {
     width: 200px;
-    background: blue;
-    background: url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top left, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom left;
+    background: url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top left, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom left, blue;
 }
 
 
