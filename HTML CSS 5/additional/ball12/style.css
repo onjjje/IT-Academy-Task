@@ -26,12 +26,3 @@
     width: 200px;
     background: url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top left, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom left, blue;
 }
-
-
-/* .box2 {
-    width: 100%;
-} */
-
-.box3 {
-    width: 200px;
-}
