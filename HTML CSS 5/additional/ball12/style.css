@@ -4,25 +4,23 @@
     box-sizing: border-box;
 }
 
-.box1,
-.box2,
-.box3 {
+.wrap {
+    background: url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/20percent-1.gif') 20% top no-repeat, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') 100% 0 no-repeat, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') 0 100% no-repeat, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/200px-1.gif') right bottom no-repeat, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/20percent-1.gif') 20% bottom no-repeat, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') 100% 100% no-repeat, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/200px-line.gif') right top repeat-y, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/2colors-1.gif') 20% top
+}
+
+.wrap20 {
     float: left;
-    min-height: 400px;
-    color: #ffffff;
+    width: 20%
 }
 
-.box1 {
-    width: 20%;
-    background: url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top left, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom left, red;
-}
-
-.box2 {
-    width: 800px;
-    background: url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top left, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom left, green;
-}
-
-.box3 {
+.wrap200 {
+    float: right;
     width: 200px;
-    background: url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top left, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat top right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom right, url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat bottom left, blue;
+    background: url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat
+}
+
+.content {
+    margin-left: 20%;
+    margin-right: 200px;
+    background: url('/IT-Academy-Task/HTML CSS 5/additional/ball12/img/ball3.png') no-repeat 100% 0
 }
