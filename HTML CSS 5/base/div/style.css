@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
+.wrap {
+    overflow: hidden;
+    background: coral;
+}
+
 nav {
     background: coral;
     width: 200px;
     float: left;
-    min-height: 395px;
 }
 
 nav ul {
@@ -31,11 +35,8 @@ footer h2 {
 }
 
 .content {
-    background: url('/IT-Academy-Task/HTML CSS 5/base/div/img/ball3.png');
-    /* background-color: #ffffff1c; */
-    background-repeat: repeat-y;
-    background-position: right;
-    min-height: 395px;
+    background: url('/IT-Academy-Task/HTML CSS 5/base/div/img/ball3.png') top right repeat-y white;
+    margin-left: 200px;
 }
 
 .content h3 {
