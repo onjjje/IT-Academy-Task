@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        li {
+            list-style-type: none;
+        }
+        /* style for container_1  */
+        
+        .container_1,
+        .container_2 {
+            padding: 5px 0 30px 0;
+        }
+        
+        .container_1 ul,
+        .container_3 {
+            text-align: center;
+        }
+        /* задаем строковое положение li через inline */
+        
+        .container_1 li,
+        .container_2 li {
+            display: inline;
+            border-right: 2px solid orangered;
+        }
+        
+        .container_1 li:last-child,
+        .container_2 li:last-child {
+            border: none;
+        }
+        
+        .container_1 li a,
+        .container_2 li a,
+        .container_3 a {
+            display: inline-block;
+            height: 20px;
+            padding: 0 10px;
+            transition: 0.4s;
+        }
+        
+        .container_1 li a:hover,
+        .container_2 li a:hover,
+        .container_3 a:hover {
+            color: green;
+        }
+        /* style for container_2  */
+        
+        .container_2 ul {
+            display: flex;
+            justify-content: center;
+        }
+        /* через псевдо класс */
+        
+        .container_3 a::after {
+            content: '';
+            display: inline-block;
+            border-right: 2px solid red;
+            height: 20px;
+            padding: 0px 10px 0px 10px;
+            vertical-align: -5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- способ 1 через списки -->
+    <h2>Вариант 1</h2>
+    <div class="container_1">
+        <ul>
+            <li><a href="#">первая ссылка</a></li>
+            <li><a href="#">вторая ссылка</a></li>
+            <li><a href="#">третья ссылка</a></li>
+            <li><a href="#">четвертая ссылка</a></li>
+            <li><a href="#">пятая ссылка</a></li>
+        </ul>
+    </div>
+    <!-- способ 2 через flex, хоть и не проходили) -->
+    <h2>Вариант 2</h2>
+    <div class="container_2">
+        <ul>
+            <li><a href="#">первая ссылка</a></li>
+            <li><a href="#">вторая ссылка</a></li>
+            <li><a href="#">третья ссылка</a></li>
+            <li><a href="#">четвертая ссылка</a></li>
+            <li><a href="#">пятая ссылка</a></li>
+        </ul>
+    </div>
+    <!-- способ 3 просто через тег а, так как он строчный элемент -->
+    <h2>Вариант 3</h2>
+    <div class="container_3">
+        <a href="#">первая ссылка</a>
+        <a href="#">вторая ссылка</a>
+        <a href="#">третья ссылка</a>
+        <a href="#">четвертая ссылка</a>
+        <a href="#">пятая ссылка</a>
+    </div>
+</body>
+
+</html>
