@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .rating ul {
+            text-align: center;
+            padding-top: 50px;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+        }
+        
+        .rating li {
+            list-style-type: none;
+            height: 78px;
+            width: 78px;
+            background: url("star0.png");
+            transition: 0.3s;
+        }
+        
+        .rating ul li:hover,
+        .rating ul li:hover~li {
+            background: url("star1.png");
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rating">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+
+</html>
