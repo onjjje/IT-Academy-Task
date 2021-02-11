@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MAKET_FORM</title>
+</head>
+
+<body>
+    <div class="form_content">
+        <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        <form action="" class="form-pub">
+
+            <label for="">
+                <span class="form-title">Название статьи:</span>
+                <input type="text" name="title">
+            </label>
+
+            <label for="">
+                <span class="form-title">Рубрика:</span>
+                <select name="heading" id="">
+                    <option value="pc">компьютерная техника</option>
+                    <option value="grafics">графика и дизай</option>
+                    <option value="programming">программирование</option>
+                </select>
+            </label>
+
+            <label for="">
+                <span class="form-title">Публикация:</span>
+                <div class="radio-wrap">
+                    <input type="radio" name="publication" value="site"><span>на сайте</span>
+                </div>
+                <div class="radio-wrap">
+                    <input type="radio" name="publication" value="site"><span>в журнале</span>
+                </div>
+                <div class="radio-wrap">
+                    <input type="radio" name="publication" value="site"><span>на сайте и в журнале</span>
+                </div>
+            </label>
+
+            <label for="">
+                <span>Разрешить комментрии:</span>
+                <input type="checkbox" name="comments" checked>
+            </label>
+
+            <label for="">
+                <span class="form-title">Текст статьи:</span>
+                <textarea name="form-area"></textarea>
+            </label>
+            <label for=""><input type="submit" value="Опубликовать"></label>
+            <div class="clear"></div>
+        </form>
+    </div>
+
+</body>
+
+</html>

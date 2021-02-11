@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapp-content {
+    position: relative;
+    width: 406px;
+    height: 422px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapp-content img.absolute {
+    position: absolute;
+    z-index: 2;
+    top: 75px;
+    left: 75px;
+    border-radius: 50%;
+}
+
+.wrapp-content img {
+    position: relative;
+    z-index: 1;
+    transition: all .3s;
+}
+
+.wrapp-content img:hover {
+    z-index: 2;
+}
