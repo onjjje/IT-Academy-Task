@@ -273,6 +273,12 @@
     }
     /* brends */
     
+    .brends .content-wrap {
+        box-shadow: none;
+        border-right: none;
+        border-left: none;
+    }
+    
     section.brends {
         background: url('image/marketing/bg.png') no-repeat fixed center/cover;
     }
