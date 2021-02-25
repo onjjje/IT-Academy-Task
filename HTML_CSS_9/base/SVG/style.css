@@ -1,0 +1,36 @@
+rect#svg_3,
+ellipse#svg_4,
+path#svg_5 {
+    transition: 0.4s;
+}
+
+path#svg_5:hover {
+    fill: rgb(92, 221, 32);
+    stroke: rgb(255, 255, 255);
+}
+
+ellipse#svg_4:hover {
+    rx: 140;
+}
+
+@keyframes svg3 {
+    100% {
+        x: 240.5;
+    }
+    75% {
+        x: 160.5;
+    }
+    50% {
+        x: 240.5;
+    }
+    25% {
+        x: 320.5;
+    }
+    0% {
+        x: 240.5;
+    }
+}
+
+rect#svg_3 {
+    animation: svg3 2s ease-in infinite;
+}
