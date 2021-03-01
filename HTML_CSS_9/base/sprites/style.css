@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sprites {
+    width: 158px;
+    height: 275px;
+    margin: 0 auto;
+    background: url('img/ninja.jpg');
+    animation: sprites 1s steps(3) infinite;
+}
+
+@keyframes sprites {
+    from {
+        background: url('img/ninja.jpg') 0 0;
+    }
+    to {
+        background: url('img/ninja.jpg') -557px 0;
+    }
+}
